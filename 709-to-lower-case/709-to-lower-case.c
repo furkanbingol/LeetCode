@@ -5,7 +5,7 @@ char * toLowerCase(char * s){
     {
         if(s[i] >= 65 && s[i] <= 90)
             s[i] = s[i] + 32;
-        i++;
+        ++i;
     }
     return s;
 }
