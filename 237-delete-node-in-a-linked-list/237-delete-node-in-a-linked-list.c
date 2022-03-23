@@ -7,18 +7,8 @@
  */
 
 void deleteNode(struct ListNode* node) {
-    int t = node->val;
-    int c = 0;
-    struct ListNode* prev = node;
-    while(node->next != NULL)
-    {
-        if (c != 0)
-            prev = prev->next;
-        node->val = node->next->val;
-        node->next->val = t;
-        node = node->next;
-        c = 1;
-    }
-    prev->next = NULL;
-    free(node);
+    struct ListNode* tmp = node->next;
+    node->val = node->next->val;
+    node->next = node->next->next;
+    free(tmp);
 }
