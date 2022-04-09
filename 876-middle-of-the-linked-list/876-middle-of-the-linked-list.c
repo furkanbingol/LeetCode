@@ -7,8 +7,8 @@
  */
 
 struct ListNode* middleNode(struct ListNode* head){
-    int len = 0;
     struct ListNode* tmp = head;
+    int len = 0;
     
     if(head == NULL)
         return NULL;
