@@ -13,11 +13,11 @@ char * multiply(char * num1, char * num2)
         for(int j = len2 - 1; j >= 0 ; j--)
         {
 	        int ii = i + j + 1;  //max digit
-            int r = (num1[i] - '0') * (num2[j] - '0');  //18
+            int r = (num1[i] - '0') * (num2[j] - '0'); 
 
-   	        res[ii] += r % 10;  //8
-	        res[ii - 1] += r / 10; //1
-	        r = res[ii]; //8
+   	        res[ii] += r % 10;  
+	        res[ii - 1] += r / 10; 
+	        r = res[ii]; 
 	        if( r >= 10 )
 	        {
                 res[ii] = r % 10;
