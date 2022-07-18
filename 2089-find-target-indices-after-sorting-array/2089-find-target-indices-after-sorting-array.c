@@ -44,6 +44,7 @@ int* targetIndices(int* nums, int numsSize, int target, int* returnSize){
         if(nums[i] == target)
             arr[j++] = i;
     }
+    arr = realloc(arr, j * sizeof(int));
     *returnSize = j;
     return arr;
 }
