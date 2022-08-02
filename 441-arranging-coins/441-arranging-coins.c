@@ -1,6 +1,6 @@
 int arrangeCoins(int n){
     int i = 1;
-    long sum;
+    long sum = 0;
     
     while (i <= n){
         sum += i;
