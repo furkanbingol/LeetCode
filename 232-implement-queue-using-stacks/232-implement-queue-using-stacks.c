@@ -23,7 +23,7 @@ int myQueuePop(MyQueue* obj) {
 	  return obj->stack2[obj->index2 + 1];
   }
   else{
-	  int len = obj->index1;  //2 ama 3 elaman var stack1 de
+	  int len = obj->index1;
 	  for(int i = 0; i < len + 1; i++){
 		  obj->stack2[++(obj->index2)] = obj->stack1[obj->index1 - i];
 	  }
