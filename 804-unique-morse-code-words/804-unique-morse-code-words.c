@@ -35,5 +35,8 @@ int uniqueMorseRepresentations(char ** words, int wordsSize){
         i++;
     }
     
+    for(int i = 0; i < wordsSize; i++)
+        free(arr[i]);
+    free(arr);
     return count;
 }
