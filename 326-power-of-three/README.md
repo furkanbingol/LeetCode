@@ -7,18 +7,21 @@
 
 <pre><strong>Input:</strong> n = 27
 <strong>Output:</strong> true
+<strong>Explanation:</strong> 27 = 3<sup>3</sup>
 </pre>
 
 <p><strong>Example 2:</strong></p>
 
 <pre><strong>Input:</strong> n = 0
 <strong>Output:</strong> false
+<strong>Explanation:</strong> There is no x where 3<sup>x</sup> = 0.
 </pre>
 
 <p><strong>Example 3:</strong></p>
 
-<pre><strong>Input:</strong> n = 9
-<strong>Output:</strong> true
+<pre><strong>Input:</strong> n = -1
+<strong>Output:</strong> false
+<strong>Explanation:</strong> There is no x where 3<sup>x</sup> = (-1).
 </pre>
 
 <p>&nbsp;</p>
