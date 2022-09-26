@@ -1,8 +1,12 @@
 <h2><a href="https://leetcode.com/problems/split-a-string-in-balanced-strings/">1221. Split a String in Balanced Strings</a></h2><h3>Easy</h3><hr><div><p><strong>Balanced</strong> strings are those that have an equal quantity of <code>'L'</code> and <code>'R'</code> characters.</p>
 
-<p>Given a <strong>balanced</strong> string <code>s</code>, split it in the maximum amount of balanced strings.</p>
+<p>Given a <strong>balanced</strong> string <code>s</code>, split it into some number of substrings such that:</p>
 
-<p>Return <em>the maximum amount of split <strong>balanced</strong> strings</em>.</p>
+<ul>
+	<li>Each substring is balanced.</li>
+</ul>
+
+<p>Return <em>the <strong>maximum</strong> number of balanced strings you can obtain.</em></p>
 
 <p>&nbsp;</p>
 <p><strong>Example 1:</strong></p>
@@ -14,10 +18,10 @@
 
 <p><strong>Example 2:</strong></p>
 
-<pre><strong>Input:</strong> s = "RLLLLRRRLR"
-<strong>Output:</strong> 3
-<strong>Explanation:</strong> s can be split into "RL", "LLLRRR", "LR", each substring contains same number of 'L' and 'R'.
-</pre>
+<pre><strong>Input:</strong> s = "RLRRRLLRLL"
+<strong>Output:</strong> 2
+<strong>Explanation:</strong> s can be split into "RL", "RRRLLRLL", each substring contains same number of 'L' and 'R'.
+Note that s cannot be split into "RL", "RR", "RL", "LR", "LL", because the 2<sup>nd</sup> and 5<sup>th</sup> substrings are not balanced.</pre>
 
 <p><strong>Example 3:</strong></p>
 
@@ -30,7 +34,7 @@
 <p><strong>Constraints:</strong></p>
 
 <ul>
-	<li><code>1 &lt;= s.length &lt;= 1000</code></li>
+	<li><code>2 &lt;= s.length &lt;= 1000</code></li>
 	<li><code>s[i]</code> is either <code>'L'</code> or <code>'R'</code>.</li>
 	<li><code>s</code> is a <strong>balanced</strong> string.</li>
 </ul>
