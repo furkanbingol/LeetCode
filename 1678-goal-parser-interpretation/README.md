@@ -3,7 +3,7 @@
 <p>Given the string <code>command</code>, return <em>the <strong>Goal Parser</strong>'s interpretation of </em><code>command</code>.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> command = "G()(al)"
 <strong>Output:</strong> "Goal"
@@ -14,13 +14,13 @@ G -&gt; G
 The final concatenated result is "Goal".
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> command = "G()()()()(al)"
 <strong>Output:</strong> "Gooooal"
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre><strong>Input:</strong> command = "(al)G(al)()()G"
 <strong>Output:</strong> "alGalooG"
