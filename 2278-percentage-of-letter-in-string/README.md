@@ -1,7 +1,7 @@
 <h2><a href="https://leetcode.com/problems/percentage-of-letter-in-string/">2278. Percentage of Letter in String</a></h2><h3>Easy</h3><hr><div><p>Given a string <code>s</code> and a character <code>letter</code>, return<em> the <strong>percentage</strong> of characters in </em><code>s</code><em> that equal </em><code>letter</code><em> <strong>rounded down</strong> to the nearest whole percent.</em></p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> s = "foobar", letter = "o"
 <strong>Output:</strong> 33
@@ -9,7 +9,7 @@
 The percentage of characters in s that equal the letter 'o' is 2 / 6 * 100% = 33% when rounded down, so we return 33.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> s = "jjjj", letter = "k"
 <strong>Output:</strong> 0
