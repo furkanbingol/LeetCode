@@ -3,21 +3,21 @@
 <p>A <strong>substring</strong> is a contiguous sequence of characters within a string.</p>
 
 <p>&nbsp;</p>
-<p><strong>Example 1:</strong></p>
+<p><strong class="example">Example 1:</strong></p>
 
 <pre><strong>Input:</strong> num = "52"
 <strong>Output:</strong> "5"
 <strong>Explanation:</strong> The only non-empty substrings are "5", "2", and "52". "5" is the only odd number.
 </pre>
 
-<p><strong>Example 2:</strong></p>
+<p><strong class="example">Example 2:</strong></p>
 
 <pre><strong>Input:</strong> num = "4206"
 <strong>Output:</strong> ""
 <strong>Explanation:</strong> There are no odd numbers in "4206".
 </pre>
 
-<p><strong>Example 3:</strong></p>
+<p><strong class="example">Example 3:</strong></p>
 
 <pre><strong>Input:</strong> num = "35427"
 <strong>Output:</strong> "35427"
