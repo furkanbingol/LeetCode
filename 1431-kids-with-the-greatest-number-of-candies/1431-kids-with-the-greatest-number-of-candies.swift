@@ -1,10 +1,12 @@
 class Solution {
     func kidsWithCandies(_ candies: [Int], _ extraCandies: Int) -> [Bool] {
         var res: [Bool] = []
-        var sortedArr = candies
+        var arr = candies
+        var maxCandy = candies[0]
         
-        sortedArr = sortedArr.sorted(by: >)
-        var maxCandy = sortedArr[0]
+        for i in 1..<candies.count {
+            if candies[i] > maxCandy { maxCandy = candies[i] }
+        }
         
         for i in candies {
             if i + extraCandies >= maxCandy {
